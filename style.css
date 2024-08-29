@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: Arial, sans-serif; */
+  background-color: azure;
+  margin: 2rem;
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container {
+  border: 1px solid black;
+  width: 800px;
+  height: 60px;
+  margin: 10px auto;
+  padding: 10px 15px;
+  background-color: rgb(229, 229, 229);
+  box-shadow: 0 0 30px rgba(0, 63, 88, 0.3);
+}
+
+.box {
+  border: 1px solid black;
+  background-color: rgb(179, 177, 177);
+  padding: 0px;
+  width: 18%;
+  height: 100%;
+  /* margin-bottom: 10px; */
+}
+
+.box--lt {
+  float: left;
+  margin: 0 2% 0 0;
+}
+
+.box--rt {
+  float: right;
+  margin: 0 0 0 2%;
+}
+
+.container-lg {
+  height: 120px;
+}
+
+.light--rt {
+  float: right;
+  width: 18%;
+  height: 100%;
+}
+
+.light_box--rt {
+  border: 1px solid black;
+  background-color: rgb(179, 177, 177);
+  padding: 0px;
+  width: 100%;
+  height: 40%;
+  margin: 0px 0 14% 0%;
+}
+.lg {
+  margin-right: 2%;
+}
+
+.long {
+  width: 22%;
+  height: 100%;
+  margin: 0px 220px 0% -27%;
+}
